@@ -33,7 +33,7 @@ A Python code representation of that sequence
 # Date: 2022-11-19
 # Purpose: Generate the Atone Sequence
 
-def atonen(amount=500):
+def atonen(amount=5):
     atonen_sequence = []
     for i in range(amount):
         try:
