@@ -6,6 +6,7 @@ which had never been named anything, but now by [Victor Kolis](https://github.co
 
 This sequence contains the numbers: `[1, 3, 7, 15, 31]`
 The mathematical [Gogito Ergo Sum](https://en.wikipedia.org/wiki/Discourse_on_the_Method), or function is:
+
 `(n * 2) + 1`
 
 "I believe this sequence is the Pascal's triangle outlier that sits in both sides of it. The Atone Triangles" - Victor Kolis
