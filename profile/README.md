@@ -34,11 +34,11 @@ A Python code representation of that sequence
 # Purpose: Generate the Atone Sequence
 
 def atonen(amount=500):
-	atonen_sequence = []
-	for i in range(amount):
-		try:
-			atonen_sequence += [int((i+1) * '1', 2)]
-		except OverflowError as e:
-			raise e('This value cannot be processed')
-	return atonen_sequence
+    atonen_sequence = []
+    for i in range(amount):
+        try:
+            atonen_sequence += [int((i+1) * '1', 2)]
+        except OverflowError as e:
+            raise e('This value cannot be processed')
+    return atonen_sequence
 ```
